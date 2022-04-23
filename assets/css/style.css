@@ -82,3 +82,42 @@ h3{
     font-size: 25px;
     margin-bottom: 20px;
 }
+
+
+
+
+/* Styling About us section*/
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: black;
+
+}
+
+.about-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.about-text h2{
+    font: size 25px; ;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text p{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
