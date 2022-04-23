@@ -37,7 +37,7 @@ padding-right: 10%;
 
 span{
 
-    color: white;
+    color:white;
 }
 
 nav ul li{
@@ -120,4 +120,46 @@ h3{
     line-height: 28px;
     font-size: 18px;
     margin-bottom: 45px;
+}
+
+
+/*Styling Course section*/
+
+.course{
+    width: 100%;
+    padding: 100px 0px;
+    background-color:white;
+
+}
+
+.course-text{
+    width: 550px;
+}
+
+.title{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.course-text h2{
+    font: size 25px; ;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.course-text p{
+    color:black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.course span{
+    font-size: 30px;
+    color: black;
 }
