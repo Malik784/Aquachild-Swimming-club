@@ -171,10 +171,40 @@ h3{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: blue;
 }
 .contact p{
     color: black;
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 25px;
+}
+/*Footer*/
+
+footer{
+    height: 150px;
+    position: relative;
+    background:silver;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+
+footer p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.end{
+    position: absolute;
+    color: white;
+    bottom: auto;
+    font-size: 14px;
 }
